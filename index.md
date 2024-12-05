@@ -3,10 +3,9 @@ title: "Arcaan - Software Engineering Team"
 ---
 
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Favicon -->
-  <link rel="icon" href="favicon.png" type="image/x-icon">
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
 </head>
 
