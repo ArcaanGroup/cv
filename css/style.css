@@ -1,0 +1,141 @@
+/* General Page Styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+/* Header */
+header {
+  color: #fff;
+  text-align: center;
+  padding: 3rem 0; /* Larger padding for prominence */
+}
+
+header h1 {
+  font-size: 3.5rem; /* Larger font size for the title */
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* Main Content */
+main {
+  width: 100%;
+  padding: 3rem 8%;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for content */
+  border-radius: 12px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2.5rem;
+}
+
+/* Section Headings */
+section h2 {
+  color: #20e3b2;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #20e3b2;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+section h3 {
+  color: #333;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+section p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+ul li {
+  position: relative;
+  margin-bottom: 0.8rem;
+  padding-left: 1.8rem;
+  font-size: 1rem;
+}
+
+ul li::before {
+  content: "•"; /* Custom bullet for modern look */
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  color: #20e3b2;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+strong {
+  color: #20e3b2;
+}
+
+/* Horizontal Rules */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2.5rem 0;
+}
+
+/* Links */
+a {
+  color: #20e3b2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3aa877; /* Slightly darker shade for hover */
+}
+
+/* Contact Section */
+section:last-of-type p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+section:last-of-type a {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  section h2 {
+    font-size: 1.8rem;
+  }
+
+  section h3 {
+    font-size: 1.4rem;
+  }
+
+  main {
+    padding: 2rem 5%;
+  }
+}
