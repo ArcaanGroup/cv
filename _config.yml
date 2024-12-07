@@ -1,3 +1,4 @@
-title: "Arcaan Software Engineering Team"
-# theme: jekyll-theme-slate # Or any other theme you are using, or leave blank for no theme
-markdown: kramdown
+name: Arcaan Theme
+description: A simple Jekyll theme for Arcaan Team.
+author: Arcaan
+theme: "arcaan-jekyll-theme"
