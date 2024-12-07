@@ -1,4 +1,4 @@
-name: Arcaan Theme
-description: A simple Jekyll theme for Arcaan Team.
-author: Arcaan
-theme: "arcaan-jekyll-theme"
+name: Resume Theme
+description: A simple Jekyll theme for resumes.
+author: Your Name
+theme: "my-jekyll-theme"
