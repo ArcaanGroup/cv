@@ -1,4 +1,4 @@
 name: Resume Theme
 description: A simple Jekyll theme for resumes.
 author: Your Name
-theme: my-jekyll-theme
+theme: "my-jekyll-theme"
