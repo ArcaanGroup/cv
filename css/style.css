@@ -31,6 +31,7 @@ main {
   box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 3rem;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for content */
   border-radius: 12px;
