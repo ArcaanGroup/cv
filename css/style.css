@@ -93,18 +93,22 @@ ul {
 ul li {
   position: relative;
   margin-bottom: 0.8rem;
-  padding-left: 1.8rem;
+  padding-left: 0.6rem;
   font-size: 1rem;
 }
 
 ul li::before {
-  content: "•"; /* Custom bullet for modern look */
+  content: "";
+  display: inline-block;
+  width: 20px; /* Set width and height for the SVG */
+  height: 20px;
+  background: url("../public/arcaan.svg") no-repeat center center;
+  background-size: contain; /* Make sure the SVG scales correctly */
+  margin-left: -20px; /* Adjust the space between the bullet and the text */
+  vertical-align: middle;
   position: absolute;
   left: 0;
-  top: 0.1rem;
-  color: var(--palette-accent);
-  font-size: 1.4rem;
-  font-weight: bold;
+  top: 4px;
 }
 
 strong {
