@@ -1,16 +1,34 @@
+@font-face {
+  font-family: lato;
+  src: url("public/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: lato-light;
+  src: url("public/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: lato-bold;
+  src: url("public/Lato-Bold.ttf");
+}
+
+:root {
+  --palette-accent: #1be3be;
+}
+
 /* General Page Styling */
 body {
-  font-family: "Arial", sans-serif;
+  font-family: lato, "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
-  color: #333;
+  color: #212121;
   line-height: 1.6;
   font-size: 1rem;
-  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  background: linear-gradient(135deg, #97f4e3, #74ebd5, #acb6e5);
 }
 
 /* Header */
+
 header {
   color: #fff;
   text-align: center;
@@ -32,7 +50,8 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 3rem;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for content */
   border-radius: 12px;
 }
@@ -44,10 +63,10 @@ section {
 
 /* Section Headings */
 section h2 {
-  color: #20e3b2;
+  color: var(--palette-accent);
   font-size: 2.2rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #20e3b2;
+  border-bottom: 2px solid var(--palette-accent);
   padding-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -83,13 +102,13 @@ ul li::before {
   position: absolute;
   left: 0;
   top: 0.1rem;
-  color: #20e3b2;
+  color: var(--palette-accent);
   font-size: 1.4rem;
   font-weight: bold;
 }
 
 strong {
-  color: #20e3b2;
+  color: var(--palette-accent);
 }
 
 /* Horizontal Rules */
@@ -101,7 +120,7 @@ hr {
 
 /* Links */
 a {
-  color: #20e3b2;
+  color: var(--palette-accent);
   text-decoration: none;
   font-weight: 500;
 }
