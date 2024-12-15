@@ -115,6 +115,11 @@ strong {
   color: var(--palette-accent);
 }
 
+.specialty {
+  opacity: 0.75;
+  font-size: 1rem;
+}
+
 /* Horizontal Rules */
 hr {
   border: none;
